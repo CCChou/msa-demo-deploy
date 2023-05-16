@@ -17,7 +17,7 @@ spec:
             - name: "eventTypes"
               value: ["push"]
       bindings:
-        - ref: github-pr-binding
+        - ref: github-push-binding
       template:
         ref: github-template
   resources:
@@ -38,7 +38,7 @@ spec:
 apiVersion: triggers.tekton.dev/v1beta1
 kind: TriggerBinding
 metadata:
-  name: github-pr-binding
+  name: github-push-binding
 spec:
   params:
     - name: gitrepositoryurl
