@@ -4,6 +4,4 @@ namespace: dev-caj-fare
 bases: 
   - ../../base 
 patchesStrategicMerge:
-  - service.yaml 
-  - deployment.yaml
   - route.yaml
