@@ -1,0 +1,6 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: caj-fare
+spec:
+  host: caj-fare-prod.apps.cluster-dvk6n.dvk6n.sandbox169.opentlc.com
