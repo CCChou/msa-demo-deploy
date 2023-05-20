@@ -2,9 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: caj-fare
-  namespace: caj-fare
 spec:
-  host: caj-fare.apps.cluster-dvk6n.dvk6n.sandbox169.opentlc.com
   to:
     kind: Service
     name: caj-fare
