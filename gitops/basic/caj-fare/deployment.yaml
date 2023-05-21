@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: caj-fare
-          image: 'docker.io/d0ck3rj3ff/caj-schedule:latest'
+          image: 'image-registry.openshift-image-registry.svc:5000/caj-fare/caj-fare:2023-05-21-04-41-36'
           ports:
             - containerPort: 8080
               protocol: TCP
